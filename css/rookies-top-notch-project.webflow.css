@@ -1,0 +1,70 @@
+.section {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
+.slider1 {
+  position: static;
+  z-index: 0;
+  height: 100vh;
+  background-color: transparent;
+  font-family: '609d7b199b6dec46c14b9695 degular (1)', sans-serif;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.slider2 {
+  position: relative;
+  z-index: 1;
+}
+
+.slider2.slider1 {
+  position: static;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.body {
+  height: 100vh;
+  background-color: transparent;
+}
+
+.heading {
+  margin-top: 0px;
+}
+
+.div-block {
+  background-color: #be0606;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg'), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg'), linear-gradient(180deg, #000, #fff);
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, auto;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  opacity: 0.17;
+  color: red;
+}
+
+.image-2 {
+  width: 100%;
+  height: 100%;
+  opacity: 0.41;
+}
+
+@font-face {
+  font-family: '609d7b199b6dec46c14b9695 degular (1)';
+  src: url('../fonts/609d7b199b6dec46c14b9695_Degular-Thin-1.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
